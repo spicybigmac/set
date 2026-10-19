@@ -1,0 +1,14 @@
+name: assortment
+options:
+  bundleIdPrefix: com.setgame
+targets:
+  SetGame:
+    type: application
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources: [Sources]
+    settings:
+      base:
+        CODE_SIGNING_ALLOWED: NO
+        CODE_SIGN_IDENTITY: ""
+        CODE_SIGNING_REQUIRED: NO
