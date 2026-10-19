@@ -21,7 +21,7 @@ jobs:
 
       - name: Compile App Binary
         run: |
-          xcodebuild -project SetGame.xcodeproj \
+          xcodebuild -project assortment.xcodeproj \
             -scheme SetGame \
             -sdk iphoneos \
             -configuration Release \
